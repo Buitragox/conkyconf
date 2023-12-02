@@ -1,19 +1,22 @@
 # Personal conky configuration
 
-For nvidia gpu compatibility remember to install the `conky-all` package
-instead of the `conky` package.
+My conky configuration with an **nvidia gpu**. The configuration utilizes conky variables for GPU monitoring, and some nvidia-smi commands. 
 
-```
-apt install conky-all
+This was tested on **Debian 12**.
+
+For nvidia gpu compatibility remember to install the `conky-all` package instead of the `conky` package.
+
+```bash
+sudo apt install conky-all
 ```
 
-You can use the `update.sh` script to update/replace the /etc/conky/conky.conf file.
+You can use the `update.sh` script to replace the /etc/conky/conky.conf file.
 
-```
+```bash
 update.sh <path to new conky config>
 ```
 
-Don't edit the default-conky.conf so you can restore the default configuration just in case.
+Don't edit the `default-conky.conf` file so you can restore the default configuration just in case.
 
 ## Screenshots
 
